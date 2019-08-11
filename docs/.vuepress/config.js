@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Fried Tech S.A.",
-  description: "Fried Tech Web Site",
+  title: "Fried Technologies",
+  description: "Fried Technologies Site",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
   dest: "./dist",

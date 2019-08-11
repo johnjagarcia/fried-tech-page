@@ -100,7 +100,6 @@ export default {
           flex-grow 1
           align-items: stretch
           img 
-            width 100%
-            max-width 400px
-
+            max-width 100%
+            height auto
 </style>

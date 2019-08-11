@@ -1,18 +1,22 @@
 ---
+home: true
 layout: Homepage
-description: 'The biography and information about me.'
-avatar: /profile.jpg
-head: 'Fried Developers S. A.'
+description: 'Fried Technologies Web Page'
+head: 'Fried Technologies'
+heroImage: '/icons/pan.svg'
 info: 'Somos un grupo de jovenes dedicados a dar soluciones software, con una experiencia de más de 5 años en el mercado.'
 features:
     - title: Desarrollo de soluciones Web
-      details: Desarrollo de plataformas web en lenguajes de última generación
+      details: Desarrollo de plataformas web responsivas en lenguajes de última generación
+      icon: coding
  
     - title: Desarrollo de soluciones móviles
-      details: Desarrollo de aplicaciones android de alta calidad
+      details: Desarrollo de aplicaciones para conectar su negocio con el mundo
+      icon: smartphone
 
     - title: Acompañamiento profesional
-      details: Lo ayudamos a dar ese salto hacía la digitalización de su negocio o empresa
+      details: Lo ayudamos a dar el salto hacía la digitalización de su negocio o empresa
+      icon: skills
 socials:
 - title: facebook
   link: 

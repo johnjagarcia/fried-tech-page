@@ -5,23 +5,25 @@
         <div class="bio">
           <div class="head">
             <span>{{data.head}}</span>
+            <img src="/icons/blackhole.svg" alt="" width="50">
           </div>
           <div class="info">
             <span>{{data.info}}</span>
           </div>
           <div class="features">
             <div class="feature" v-for="item in data.features">
-              <h4>{{ item.title }}</h4>
+              <img v-if="item.icon" :src="`/icons/${item.icon}.svg`" alt="mobile" width="50" />
+              <h3>{{ item.title }}</h3>
               <span>{{ item.details }}</span>
             </div>
           </div>
-          <div class="description">
+          <!--<div class="description">
             <Content />
-          </div>
+          </div>-->
         </div>
-        <div class="interests">
+        <!--<div class="interests">
           <span>{{data.interests}}</span>
-        </div>
+        </div>-->
         <div class="socials">
           <div v-for="item in data.socials">
             <a :href="item.link" target="_blank">
@@ -29,7 +31,7 @@
             </a>
           </div>
         </div>
-        <div class="actions">
+        <!--<div class="actions">
           <div v-for="item in data.actions">
             <a
               :href="item.link"
@@ -37,7 +39,7 @@
               :target="item.link.startsWith('/')?'':'_blank'"
             >{{item.text}}</a>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="footer" v-if="data.footer">{{ data.footer }}</div>
@@ -101,7 +103,7 @@ body {
     width: 100%;
     position: relative;
     top: -75px;
-    padding-top: 75px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
     background: #fff;
@@ -114,7 +116,7 @@ body {
 
       .head {
         font-weight: 700;
-        font-size: 1.3em;
+        font-size: 2em;
       }
 
       .info {
@@ -128,6 +130,10 @@ body {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+
+        .feature {
+          padding-top: 1.5rem;
+        }
       }
 
       .description {

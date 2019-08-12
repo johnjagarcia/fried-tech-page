@@ -6,6 +6,7 @@ module.exports = {
   dest: "./dist",
 
   themeConfig: {
+    logo: '/icons/blackhole.svg',
     nav: [
       { text: "Inicio", link: "/" },
       { text: "Nuestro equipo", link: "/team/" }
@@ -19,6 +20,19 @@ module.exports = {
     config: md => {
       md.use(require("markdown-it-katex"));
     }
-  }
+  }/*,
+
+  locales: {
+    '/': {
+      lang: 'es-CO',
+      title: 'VuePress',
+      description: 'Página web de Fried Technologies'
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'VuePress',
+      description: 'Fried Technologies Site'
+    }
+  } */
 };
 

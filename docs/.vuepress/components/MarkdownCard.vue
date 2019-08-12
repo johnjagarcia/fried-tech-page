@@ -1,7 +1,7 @@
 <template>
   <div class="md-card">
     <div v-if="image" class="card-image">
-      <img :src="$withBase(image)" alt="" height="345" width="450">
+      <img :src="$withBase(image)" alt="">
     </div>
     <div class="card-content">
       <slot></slot>
@@ -34,7 +34,7 @@ export default {
     align-items center
     padding 0.5rem
     img 
-      max-width 100%
+      max-width 150px
       border: 1px solid #eee;
       border-radius 0.2rem
       object-fit cover

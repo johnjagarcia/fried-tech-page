@@ -4,11 +4,10 @@ layout: Homepage
 description: 'Fried Technologies Web Page'
 head: 'Fried Technologies'
 heroImage: '/icons/pan.svg'
-tagline: Soluciones software de alta calidad
-info: 'En Fried Technologies desarrollamos software a medida. Abarcamos todo el proceso que va desde la fase de consultoría previa al mantenimiento evolutivo del sistema. Pasando  por el análisis, diseño, arquitectura, desarrollo,  fase de pruebas, control de calidad, puesta en marcha y soporte, es decir, implementamos el ciclo completo la solución software. 
-Además, para ello, nos valemos de las últimas metodologías, las que más se adaptan a cada proyecto, a cada empresa y a cada cliente. Utilizamos metodologías de gestión de proyectos clásicas y también las más ágiles y modernas.'
+info: 'At Fried Technologies we develop custom software. We cover the entire process that goes from the consulting phase prior to the evolutionary maintenance of the system. Going through the analysis, design, architecture, development, testing phase, quality control, commissioning and support, that is, we implement the complete software solution cycle.
+In addition, for this, we use the latest methodologies, the ones that best suit each project, each company and each client. We use classic project management methodologies and also the most agile and modern.'
 features:
-    - title: Desarrollo de software a la medida
+    - title: Desarrollo de soluciones Web
       details: Desarrollo de plataformas web responsivas en lenguajes de última generación
       icon: coding
  
